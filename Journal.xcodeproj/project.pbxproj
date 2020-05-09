@@ -15,6 +15,7 @@
 		AFD47402246621F100B6B077 /* ProfileSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD47401246621F100B6B077 /* ProfileSettingsVC.swift */; };
 		AFD474042466220500B6B077 /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD474032466220500B6B077 /* MainTabBarVC.swift */; };
 		AFD474062466309400B6B077 /* JournalEntryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD474052466309400B6B077 /* JournalEntryViewCell.swift */; };
+		AFD4740824670E8800B6B077 /* AddEntryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4740724670E8800B6B077 /* AddEntryViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AFD47401246621F100B6B077 /* ProfileSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsVC.swift; sourceTree = "<group>"; };
 		AFD474032466220500B6B077 /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
 		AFD474052466309400B6B077 /* JournalEntryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryViewCell.swift; sourceTree = "<group>"; };
+		AFD4740724670E8800B6B077 /* AddEntryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				AFD474052466309400B6B077 /* JournalEntryViewCell.swift */,
+				AFD4740724670E8800B6B077 /* AddEntryViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFD473DD2465B01B00B6B077 /* AppDelegate.swift in Sources */,
+				AFD4740824670E8800B6B077 /* AddEntryViewCell.swift in Sources */,
 				AFD474062466309400B6B077 /* JournalEntryViewCell.swift in Sources */,
 				AFD474042466220500B6B077 /* MainTabBarVC.swift in Sources */,
 				AFD47402246621F100B6B077 /* ProfileSettingsVC.swift in Sources */,

@@ -76,13 +76,13 @@ class JournalEntryViewCell: UICollectionViewCell {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
 
-        fatalError("Interface Builder is not supported!")
+        fatalError("init(coder:) has not been implemented")
     }
 
     override func awakeFromNib() {
         super.awakeFromNib()
 
-        fatalError("Interface Builder is not supported!")
+        fatalError("init(coder:) has not been implemented")
     }
     
 }

@@ -26,11 +26,12 @@ class MainTabBarVC: UITabBarController {
         // Do any additional setup after loading the view.
         let journalCollectionVC = JournalCollectionVC()
         journalCollectionVC.tabBarItem.title = "Journal"
-        journalCollectionVC.tabBarItem.image = UIImage(systemName: "book")
+        journalCollectionVC.tabBarItem.image = UIImage(named: "book")
 
         let profileSettingsVC = ProfileSettingsVC()
+
         profileSettingsVC.tabBarItem.title = "Profile"
-        profileSettingsVC.tabBarItem.image = UIImage(systemName: "person")
+        profileSettingsVC.tabBarItem.image = UIImage(named: "person")
 
         journalCollectionNC.viewControllers = [journalCollectionVC]
         profileSettingsNC.viewControllers = [profileSettingsVC]
